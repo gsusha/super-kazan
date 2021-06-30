@@ -47,9 +47,10 @@
 							<div class="home__phone">
 								<div class="home__icon"><img src="img/phone.png" alt=""></div>
 								<div class="home__number">
-	+7 (928) 988-92-97</div>
+									+7 (928) 988-92-97
+								</div>
 							</div>
-							<div class="home__btn"><a href="#">Заказать звонок</a></div>
+							<div class="home__btn"><button onClick="openModal();">Заказать звонок</button></div>
 							<div class="home__title">
 								<p>Узбекские чугунные казаны от 1 800 рублей</p>
 								<p>производство г. Наманган</p>
@@ -83,7 +84,7 @@
 								</div>
 							</div>
 
-							<div class="about__img"><img src="img/home.jpg" alt=""></div>
+							<div class="about__img"><img src="img/cta.jpg" alt=""></div>
 						</div>
 					</div>
 				</div>
@@ -96,7 +97,6 @@
 							<div id="kazan_small" class="market__small-row">
 							</div>
 						</div>
-
 
 						<div class="market__section">
 							<div class="market__title">Объёмы с доставкой под заказ</div>
@@ -227,8 +227,26 @@
 
 		</div>
 
+
+	<div id="modal" class="modal" style="display: none;">
+			<div class="modal__window">
+				<span class="modal__close">&times;</span>
+				
+				<div class="modal__title">Заполните форму</div>
+
+				<form action="php/send.php" method="post">
+					<input tabindex="1" name="buyer" id="buyer" type="text" placeholder="Имя" required>
+					<input tabindex="2" name="tel" id="tel" type="tel" placeholder="+7 (___) ___-__-__" required>
+					<input tabindex="3" name="email" id="email" type="email" placeholder="email" required>
+					<input value="Отправить" class="button" type="submit">
+				</form>
+			</div>
+	</div>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="js/burger.js"></script>
 	<script src="js/loadItems.js"></script>
+	<script src="js/form.js"></script>
+
 	</body>
 </html>
