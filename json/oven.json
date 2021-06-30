@@ -1,0 +1,226 @@
+{
+	"1" : {
+		"name" : "Печь под казан 6 литров",
+
+		"img1" : "img/goods/oven1.jpg",
+		"img2" : "img/goods/oven2.jpg",
+		"img3" : "img/goods/oven3.jpg",
+
+		"desc1" : "труба - нет",
+		"desc2" : "дверца - нет",
+		"desc3" : "заслонка - нет",
+		"desc4" : "толщина стали 2 мм",
+
+		"price" : "3 100 ₽"
+	},
+	"2" : {
+		"name" : "Печь под казан 8 литров",
+
+		"img1" : "img/goods/oven1.jpg",
+		"img2" : "img/goods/oven2.jpg",
+		"img3" : "img/goods/oven3.jpg",
+
+		"desc1" : "труба - нет",
+		"desc2" : "дверца - нет",
+		"desc3" : "заслонка - нет",
+		"desc4" : "толщина стали 2 мм",
+
+		"price" : "3 200 ₽"
+	},
+	"3" : {
+		"name" : "Печь под казан 10 литров",
+
+		"img1" : "img/goods/oven1.jpg",
+		"img2" : "img/goods/oven2.jpg",
+		"img3" : "img/goods/oven3.jpg",
+
+		"desc1" : "труба - нет",
+		"desc2" : "дверца - нет",
+		"desc3" : "заслонка - нет",
+		"desc4" : "толщина стали 2 мм",
+
+		"price" : "3 300 ₽"
+	},
+	"4" : {
+		"name" : "Печь под казан 12 литров",
+
+		"img1" : "img/goods/oven1.jpg",
+		"img2" : "img/goods/oven2.jpg",
+		"img3" : "img/goods/oven3.jpg",
+
+		"desc1" : "труба - нет",
+		"desc2" : "дверца - нет",
+		"desc3" : "заслонка - нет",
+		"desc4" : "толщина стали 2 мм",
+
+		"price" : "3 500 ₽"
+	},
+	"5" : {
+		"name" : "Печь под казан 16 литров",
+
+		"img1" : "img/goods/oven1.jpg",
+		"img2" : "img/goods/oven2.jpg",
+		"img3" : "img/goods/oven3.jpg",
+
+		"desc1" : "труба - нет",
+		"desc2" : "дверца - нет",
+		"desc3" : "заслонка - нет",
+		"desc4" : "толщина стали 2 мм",
+
+		"price" : "3 900 ₽"
+	},
+	"6" : {
+		"name" : "Печь под казан 22 литра",
+
+		"img1" : "img/goods/oven1.jpg",
+		"img2" : "img/goods/oven2.jpg",
+		"img3" : "img/goods/oven3.jpg",
+
+		"desc1" : "труба - нет",
+		"desc2" : "дверца - нет",
+		"desc3" : "заслонка - нет",
+		"desc4" : "толщина стали 2 мм",
+
+		"price" : "4 100 ₽"
+	},
+	"7" : {
+		"name" : "Печь под казан 30 литров",
+
+		"img1" : "img/goods/oven1.jpg",
+		"img2" : "img/goods/oven2.jpg",
+		"img3" : "img/goods/oven3.jpg",
+
+		"desc1" : "труба - нет",
+		"desc2" : "дверца - нет",
+		"desc3" : "заслонка - нет",
+		"desc4" : "толщина стали 2 мм",
+
+		"price" : "6 000 ₽"
+	},
+	"8" : {
+		"name" : "Печь под казан 50 литров",
+
+		"img1" : "img/goods/oven1.jpg",
+		"img2" : "img/goods/oven2.jpg",
+		"img3" : "img/goods/oven3.jpg",
+
+		"desc1" : "труба - нет",
+		"desc2" : "дверца - нет",
+		"desc3" : "заслонка - нет",
+		"desc4" : "толщина стали 2 мм",
+
+		"price" : "7 500 ₽"
+	},
+	"9" : {
+		"name" : "Печь под казан 6 литров",
+
+		"img1" : "img/goods/oven+1.jpg",
+		"img2" : "img/goods/oven+2.jpg",
+		"img3" : "img/goods/oven+3.jpg",
+
+		"desc1" : "труба - есть",
+		"desc2" : "дверца - есть",
+		"desc3" : "заслонка - есть",
+		"desc4" : "толщина стали 2 мм",
+
+		"price" : "4 500 ₽"
+	},
+	"10" : {
+		"name" : "Печь под казан 8 литров",
+
+		"img1" : "img/goods/oven+1.jpg",
+		"img2" : "img/goods/oven+2.jpg",
+		"img3" : "img/goods/oven+3.jpg",
+
+		"desc1" : "труба - есть",
+		"desc2" : "дверца - есть",
+		"desc3" : "заслонка - есть",
+		"desc4" : "толщина стали 2 мм",
+
+		"price" : "4 700 ₽"
+	},
+	"11" : {
+		"name" : "Печь под казан 10 литров",
+
+		"img1" : "img/goods/oven+1.jpg",
+		"img2" : "img/goods/oven+2.jpg",
+		"img3" : "img/goods/oven+3.jpg",
+
+		"desc1" : "труба - есть",
+		"desc2" : "дверца - есть",
+		"desc3" : "заслонка - есть",
+		"desc4" : "толщина стали 2 мм",
+
+		"price" : "5 100 ₽"
+	},
+	"12" : {
+		"name" : "Печь под казан 12 литров",
+
+		"img1" : "img/goods/oven+1.jpg",
+		"img2" : "img/goods/oven+2.jpg",
+		"img3" : "img/goods/oven+3.jpg",
+
+		"desc1" : "труба - есть",
+		"desc2" : "дверца - есть",
+		"desc3" : "заслонка - есть",
+		"desc4" : "толщина стали 2 мм",
+
+	"price" : "5 300 ₽"
+	},
+	"13" : {
+		"name" : "Печь под казан 16 литров",
+
+		"img1" : "img/goods/oven+1.jpg",
+		"img2" : "img/goods/oven+2.jpg",
+		"img3" : "img/goods/oven+3.jpg",
+
+		"desc1" : "труба - есть",
+		"desc2" : "дверца - есть",
+		"desc3" : "заслонка - есть",
+		"desc4" : "толщина стали 2 мм",
+
+		"price" : "5 500 ₽"
+	},
+	"14" : {
+		"name" : "Печь под казан 22 литра",
+
+		"img1" : "img/goods/oven+1.jpg",
+		"img2" : "img/goods/oven+2.jpg",
+		"img3" : "img/goods/oven+3.jpg",
+
+		"desc1" : "труба - есть",
+		"desc2" : "дверца - есть",
+		"desc3" : "заслонка - есть",
+		"desc4" : "толщина стали 2 мм",
+
+		"price" : "5 700 ₽"
+	},
+	"15" : {
+		"name" : "Печь под казан 30 литров",
+
+		"img1" : "img/goods/oven+1.jpg",
+		"img2" : "img/goods/oven+2.jpg",
+		"img3" : "img/goods/oven+3.jpg",
+
+		"desc1" : "труба - есть",
+		"desc2" : "дверца - есть",
+		"desc3" : "заслонка - есть",
+		"desc4" : "толщина стали 2 мм",
+
+		"price" : "7 390 ₽"
+	},
+	"16" : {
+		"name" : "Печь под казан 50 литров",
+
+		"img1" : "img/goods/oven+1.jpg",
+		"img2" : "img/goods/oven+2.jpg",
+		"img3" : "img/goods/oven+3.jpg",
+
+		"desc1" : "труба - есть",
+		"desc2" : "дверца - есть",
+		"desc3" : "заслонка - есть",
+		"desc4" : "толщина стали 2 мм",
+
+	"price" : "10 990 ₽"
+	}
+}

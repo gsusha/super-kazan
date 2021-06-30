@@ -8,6 +8,11 @@ $color2: #FF912B;
 
 body {
 	height: 100%;
+	@media (max-width:1100px) {
+		body.lock {
+			overflow: hidden;
+		}
+	}
 }
 
 .wrapper {
@@ -22,7 +27,7 @@ body {
 .container {
 	max-width: 1150px;
 	margin: 0px auto;
-  	padding: 0 30px;
+  	padding: 0 50px;
 }
 
 .content {
@@ -38,7 +43,24 @@ body {
 	z-index: 50;
 	width: 100%;
 
+&:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	z-index: 2;
+}
+
+	.header__burger {
+		display: none;
+	}
+
 	.header__body {
+		position: relative;
+		height: 50px;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -47,6 +69,9 @@ body {
 		.header__logo {
 			display: flex;
 			align-items: center;
+			position: relative;
+			z-index: 3;
+
 			.header__img {
 				max-width: 70px;
 				margin: 0px 30px 0px 0px;
@@ -55,7 +80,8 @@ body {
 				width: 100%;
 			}
 
-			.header__title {
+			.header__title a {
+				text-decoration: none;
 				color: $color1;
 				font-size: 20px;
 				font-weight: 700;
@@ -63,24 +89,134 @@ body {
 		}
 
 		.header__nav {
-			.header__item {
+			
+			.header__list {
+				display: flex;
+				align-items: center;
+				position: relative;
+				z-index: 2;
+			}
+
+			.header__list li {
+				list-style: none;
+			}
+
+			.header__link a {
 				font-weight: 500;
 				font-size: 16px;
 				color: #fff;
 				text-decoration: none;
-				margin: 0 10px;
+				margin: 0px 10px 0px 0px;
 			}
-			.header__item:hover{
+			.header__link a:hover{
 				border-bottom: 1px solid #666;
 			}
+			.header__email {
+				color: $color1;
+				font-size: 20px;
+				font-weight: 700;
+				margin: 0px 0px 0px 30px;
+			}
+		}
+	}
+
+	//Начало медиа бургер
+
+	@media (max-width:1100px) {
+		.header__row {
+			height: 30px;
+		}
+		.header__burger {
+			display: block;
+			position: relative;
+			width: 36px;
+			height: 23px;
+			position: relative;
+			z-index: 3;
+		}
+		.header__burger span {
+			position: absolute;
+			background-color: #fff;
+			left: 0;
+			width: 100%;
+			height: 3px;
+			top: 10px;
+			transition: all 0.3s ease 0s;
+		}
+
+		.header__burger:before,
+		.header__burger:after {
+			content: '';
+			background-color: #fff;
+			position: absolute;
+			width: 100%;
+			height: 3px;
+			transition: all 0.3s ease 0s;
+		}
+		.header__burger:before {
+			top: 0;
+		}
+		.header__burger:after {
+			bottom: 0;
+		}
+
+		.header__burger.active:before {
+			transform: rotate(45deg);
+			top: 10px;
+		}
+
+		.header__burger.active:after {
+			transform: rotate(-45deg);
+			bottom: 10px;
+		}
+
+		.header__burger.active span {
+			transform: scale(0);
+		}
+
+		.header__img {
+			flex: 0 1 30px;
+		}
+
+		.header__name {
+			font-size: 16px;
+		}
+
+		.header__nav {
+			position: fixed;
+			overflow: auto;
+			top: -100%;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: #222;
+			padding: 120px 20px 30px 20px;
+			transition: all 0.3s ease 0s;
+		}
+
+		.header__nav.active {
+			top: 0;
+		}
+
+		.header__list {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.header__list li {
+			margin: 0px 0px 60px 0px;
+		}
+
+		.header__link a {
+			font-size: 40px;
 		}
 
 		.header__email {
-			color: $color1;
-			font-size: 20px;
-			font-weight: 700;
+			margin: 0;
 		}
-	}
+
+	} //Конец медиа бургер
+
 }
 
 .home {
@@ -283,7 +419,7 @@ body {
 							font-weight: 700;
 							font-size: 24px;
 						}
-						.market__small-btn a {
+						.market__small-btn button {
 							display: inline-block;
 							padding: 13px 20px;
 							background: $color1;
@@ -291,7 +427,7 @@ body {
 							border-radius: 5px;
 							transition: all .6s ease 0s;
 						}
-						.market__small-btn a:hover {
+						.market__small-btn button:hover {
 							background: $color2;
 						}
 					}
@@ -368,7 +504,7 @@ body {
 							font-weight: 700;
 							font-size: 24px;
 						}
-						.market__big-btn a {
+						.market__big-btn button {
 							display: inline-block;
 							padding: 13px 20px;
 							background: $color1;
@@ -376,7 +512,7 @@ body {
 							border-radius: 5px;
 							transition: all .6s ease 0s;
 						}
-						.market__big-btn a:hover {
+						.market__big-btn button:hover {
 							background: $color2;
 						}
 					}
