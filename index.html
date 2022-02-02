@@ -47,15 +47,21 @@
 							<div class="home__phone">
 								<div class="home__icon"><img src="img/phone.png" alt=""></div>
 								<div class="home__number">
-									+7 (928) 988-92-97
+									+38 (050) 029-13-70
+								</div>
+							</div>
+							<div class="home__phone">
+								<div class="home__icon"><img src="img/phone.png" alt=""></div>
+								<div class="home__number">
+									+38 (072) 105-15-49
 								</div>
 							</div>
 							<div class="home__btn"><button onClick="openModal();">Заказать звонок</button></div>
 							<div class="home__title">
-								<p>Узбекские чугунные казаны от 1 800 рублей</p>
+								<p>Узбекские чугунные казаны от 2 500 рублей</p>
 								<p>производство г. Наманган</p>
 							</div>
-							<div class="home__subtitle">Доставка по всей России!</div>
+							<div class="home__subtitle">Доставка по Луганску и области!</div>
 						</div>
 					</div>
 				</div>
@@ -216,7 +222,8 @@
 						<div class="footer__body">
 							<div class="footer__title">Свяжитесь с нами:</div>
 							<div class="footer__subtitle">
-								<p>+7 (928) 988-92-97</p>
+								<p>+38 (050) 029-13-70</p>
+								<p>+38 (072) 105-15-49</p>
 								<p>uzbexky@gmail.com</p>
 								<p>Режим работы: с 10:00 до 18:00</p>
 							</div>
@@ -235,9 +242,9 @@
 				<div class="modal__title">Заполните форму</div>
 
 				<form action="php/send.php" method="post">
-					<input tabindex="1" name="buyer" id="buyer" type="text" placeholder="Имя" required>
-					<input tabindex="2" name="tel" id="tel" type="tel" placeholder="+7 (___) ___-__-__" required>
-					<input tabindex="3" name="email" id="email" type="email" placeholder="email" required>
+					<input type="hidden" name="name">
+					<input required type="text" name="buyer" placeholder="Имя">
+					<input required type="tel"	name="tel" placeholder="+7 (___) ___-__-__">
 					<input value="Отправить" class="button" type="submit">
 				</form>
 			</div>
